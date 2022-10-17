@@ -4,3 +4,13 @@
     background-image:url(../img/pexels-baryslau-shoot-12165306.jpg);
     background-size: cover;
 }
+
+
+.nombre-brand{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.slogan{
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: italic;
+}
