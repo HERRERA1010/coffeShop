@@ -1,5 +1,7 @@
 :root {
     --color-general: #24140d;
+    --color-secundario: #cec4b8;
+
 }
 
 .banner-image{
@@ -26,6 +28,7 @@
     font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
     margin-top: 0; 
+    
 }
 
 .slogan{
@@ -35,11 +38,11 @@
 
 .texto-presentacion {
     padding: 10px 5%;
-    text-align: left;
+    text-align: center;
 }
 
 .seccion-color{
-    background-color: rgb(63, 63, 63);
+    background-color:var(--color-secundario);
 }
 
 
@@ -48,6 +51,39 @@
     align-items: center;
     display: flex;
     
+    
+}
+
+.blob{
+    background-image: url(../img/productos/blob.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:auto;
+}
+
+.blob2{
+    background-image: url(../img/productos/blob\ 2.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:auto;
+}
+
+.blob3{
+    background-image: url(../img/productos/blob\ 3.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:auto;
+}
+
+.blob4{
+    background-image: url(../img/productos/blob\ 4.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:auto;
 }
 
 .img-sec > img {
