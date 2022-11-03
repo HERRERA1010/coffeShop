@@ -4,6 +4,13 @@
 
 }
 
+.borde{
+    border: 5px solid var(--color-secundario);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
 .banner-image{
     background-image:url(../img/pexels-baryslau-shoot-12165306-min.jpg);
     background-size: cover;
@@ -60,7 +67,7 @@
     background-size:cover;
     background-position: center;
     height: 600px;
-    width: 100%;
+
 }
 
 .blob2{
