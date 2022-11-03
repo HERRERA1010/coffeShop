@@ -59,7 +59,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height:auto;
+    height: 600px;
+    width: 100%;
 }
 
 .blob2{
@@ -67,7 +68,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height:auto;
+    height: 600px;
 }
 
 .blob3{
@@ -75,7 +76,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height:auto;
+    height: 600px;
 }
 
 .blob4{
@@ -83,7 +84,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height:auto;
+    height: 600px;
 }
 
 .img-sec > img {
