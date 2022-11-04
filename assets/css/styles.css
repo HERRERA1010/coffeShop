@@ -1,14 +1,21 @@
 :root {
-    --color-general: #24140d;
+    --color-general: #1c0f0ae4;
     --color-secundario: #cec4b8;
+    --color-links: #a3815c;
 
 }
 
 .borde{
-    border: 5px solid var(--color-secundario);
-    width: 50%;
+    background-color: var(--color-secundario);
+    width: 40%;
     text-align: center;
     margin: auto;
+    margin-bottom: 150px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
 }
 
 .banner-image{
@@ -20,21 +27,76 @@
     background-color: var(--color-general) !important;
 }
 
-.links{
+.enlaces{
     transition: all;
     text-decoration: none;
     list-style: none;
+    color: var(--color-links) !important;
 }
 
-.nav-link:hover{
-   font-weight: 600;
-   transition: 0.2s;
-}
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: var(--color-secundario);
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--color-secundario);
+    
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: var(--color-secundario);
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
 
 .nombre-brand{
     font-family: 'Julius Sans One', sans-serif;
-    font-weight: bold;
-    margin-top: 0; 
+    font-weight: 400;
+    margin-top: -15px ; 
+    height: 20px;
     
 }
 
@@ -61,13 +123,15 @@
     
 }
 
-.blob{
-    background-image: url(../img/productos/blob.svg);
+.blob-general-specs{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
+}
 
+.blob{
+    background-image: url(../img/productos/blob.svg);
 }
 
 .blob2{
@@ -75,23 +139,15 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
 }
 
 .blob3{
     background-image: url(../img/productos/blob\ 3.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 600px;
 }
 
 .blob4{
     background-image: url(../img/productos/blob\ 4.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 600px;
 }
 
 .img-sec > img {
