@@ -5,18 +5,33 @@
 
 }
 
-.borde{
-    background-color: var(--color-secundario);
+.nav-link {
+    padding: 0 0.5rem !important;
+}
+
+
+
+.titulo-productos{
+    font-size: large;
     width: 40%;
     text-align: center;
     margin: auto;
-    margin-bottom: 150px;
-    color: #fff;
+    margin-bottom: 100px;
+    color:var(--color-links) ;
     border-radius: 5px;
     box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
     -webkit-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
     -moz-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
 }
+
+.titulo-producto{
+    text-shadow: -3px 1px 7px rgba(0,0,0,0.36);
+    color:var(--color-links) ;
+    border-radius: 3px;
+    
+}
+
+
 
 .banner-image{
     background-image:url(../img/pexels-baryslau-shoot-12165306-min.jpg);
@@ -95,8 +110,8 @@
 .nombre-brand{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
-    margin-top: -15px ; 
-    height: 20px;
+    margin-top: -10px ; 
+    height: 40px;
     
 }
 
@@ -162,8 +177,6 @@
     margin: 10px auto;
     padding:10%;
     line-height: 30px;
-    
-    
 }
 
 .wrap{
@@ -195,9 +208,19 @@
     color: #fff;
   }
 
-  @media (min-widht: 992px) {
+  @media (min-width: 992px) {
     .nombre-brand{
         margin-top: 0; 
         padding-bottom: 0;
     }
+
+    .borde {
+        width: 10%;
+    }
   }
+
+   @media (min-width: 300px){
+    .borde {
+        width: 100%;
+    }
+   }
