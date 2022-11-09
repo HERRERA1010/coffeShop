@@ -1,16 +1,23 @@
 
 .navbar-nav {
-   padding-right: 2.5rem;
+   padding-right: 1.rem;
+   font-size: medium;
+   font-weight: 300;
+   
    
 }
 
 .navbar{
-   background-color: rgb(60, 52, 38);
+   background-color: rgb(60, 52, 38) ;
    color: #fff !important;
 }
 
 .texto-contacto{
+   font-weight: 300;
+   border-radius: 5px;
+   padding: 20px;
    width: 100%;
-   margin: 100px auto;
-   background-color: yellow;
+   margin: 200px auto;
+   background-color: var(--color-secundario);
+   text-shadow: 1px 0.1px ;
 }
