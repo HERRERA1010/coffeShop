@@ -1,6 +1,6 @@
 :root {
     --color-general: #1c0f0ae4;
-    --color-secundario: #cec4b8;
+    --color-secundario: #b6ab9f;
     --color-links: #a3815c;
 
 }
@@ -9,11 +9,9 @@
     padding: 0.4rem !important;
 }
 
-
-
 .titulo-productos{
     font-size: large;
-    width: 40%;
+    width: 70%;
     text-align: center;
     margin: auto;
     margin-bottom: 100px;

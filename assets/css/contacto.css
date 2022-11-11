@@ -16,8 +16,69 @@
    font-weight: 300;
    border-radius: 5px;
    padding: 20px;
-   width: 100%;
+   width: 70%;
    margin: 200px auto;
    background-color: var(--color-secundario);
    text-shadow: 1px 0.1px ;
 }
+
+
+.form{
+   margin: 7% auto;
+   width: 90%;
+   max-width: 400px;
+   border-radius: 1em;
+   padding: 0 1.5em;
+}
+
+.form-container {
+   width: 100%;
+   display: grid;
+   gap: 1em;
+   grid-auto-columns: 100%;
+}
+
+.form-title{
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: .4em;
+}
+
+.form-input{
+   font-size: 1rem;
+   padding: .8em 1em;
+   outline: none;
+   border: none;
+   border: 1px solid #bbb0b0;
+   border-radius: 0.2em;
+}
+
+.form-input--message {
+   resize: none;
+   padding: 1.8em 1em;
+   margin-bottom: .5em;
+}
+
+.form-cta{
+   font-size: 1rem;
+   border: 1px solid #fff;
+   font-weight: 300;
+   padding: .7em 0;
+   border-radius:  .2em;
+   cursor: pointer;
+
+}
+
+@media (max-width: 768px){
+   .texto-contacto {
+       width: 100%;
+       margin: 100px auto ; 
+   }
+  }
+
+@media (max-width: 1023px){
+   .texto-contacto {
+       width: 100%;
+       margin: 150px auto ; 
+   }
+  }
