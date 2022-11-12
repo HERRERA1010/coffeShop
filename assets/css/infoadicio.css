@@ -1,11 +1,27 @@
 
 
 .imagen-ajustes{
-    height: 440px;
+    height: 340px;
     width: 60%;
     margin: auto;
 }
 
+.titulo-informacion-adicional{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 150px auto 50px auto;
+    font-weight:300;
+    color: var(--color-links);
+     
+    
+}
+
 .card{
+    background-color: var(--color-secundario);
+    color: #fff;
     border: 0;
+}
+
+.card-title{
+    color: #474646;
 }
