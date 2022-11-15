@@ -107,14 +107,14 @@
 
 .nombre-brand{
     font-family: 'Julius Sans One', sans-serif;
-    font-weight: 400;
-    margin-top: -10px ; 
-    height: 40px;
-    
+    font-weight: 300;
+
+    margin-top: auto ; 
+    height: 20px;
 }
 
 .texto-presentacion {
-    padding: 10px 5%;
+    padding: 1% 1%;
     text-align: center;
 }
 
@@ -202,11 +202,6 @@
   }
 
   @media (min-width: 992px) {
-    .nombre-brand{
-        margin-top: 0; 
-        padding-bottom: 0;
-    }
-
     .borde {
         width: 10%;
     }
@@ -215,5 +210,13 @@
    @media (min-width: 300px){
     .borde {
         width: 100%;
+    }
+    .nombre-brand{
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: 400;
+        font-size: 25px; 
+        
+        height: 20px;
+        
     }
    }
