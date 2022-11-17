@@ -1,0 +1,15 @@
+.preguntasFrecuentes {
+    margin-top: 5rem;
+    font-size: 22px;
+    text-align:center ;
+}
+
+.pading-faq{
+    padding: 1em 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.mx-auto{
+   color: var(--color-links);
+}

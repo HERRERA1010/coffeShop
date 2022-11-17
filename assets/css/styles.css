@@ -5,22 +5,16 @@
 
 }
 
+.nombre-brand{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+   
+}
+
 .nav-link {
     padding: 0.4rem !important;
 }
 
-.titulo-productos{
-    font-size: large;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 100px;
-    color:var(--color-links) ;
-    border-radius: 5px;
-    box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
-    -moz-box-shadow: -11px 11px 46px -22px rgba(0,0,0,0.75);
-}
 
 .titulo-producto{
     text-shadow: -3px 1px 7px rgba(0,0,0,0.36);
@@ -28,8 +22,6 @@
     border-radius: 3px;
     
 }
-
-
 
 .banner-image{
     background-image:url(../img/pexels-baryslau-shoot-12165306-min.jpg);
@@ -105,13 +97,7 @@
     transform: scale(0.95);
    }
 
-.nombre-brand{
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 300;
 
-    margin-top: auto ; 
-    height: 20px;
-}
 
 .texto-presentacion {
     padding: 1% 1%;
@@ -186,7 +172,6 @@
     background-color: var(--color-general);
     margin-top: 150px;
     padding: 70px 0;
-    
     bottom: 0;
     width: 100%;
   }
@@ -214,9 +199,5 @@
     .nombre-brand{
         font-family: 'Julius Sans One', sans-serif;
         font-weight: 400;
-        font-size: 25px; 
-        
-        height: 20px;
-        
     }
    }

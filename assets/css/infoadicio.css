@@ -12,14 +12,15 @@
     margin: 150px auto 50px auto;
     font-weight:300;
     color: var(--color-links);
+    text-decoration: none;
      
-    
 }
 
 .card{
     background-color: var(--color-secundario);
     color: #fff;
     border: 0;
+    min-height: 250px;
 }
 
 .card-title{
