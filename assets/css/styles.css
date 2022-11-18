@@ -40,7 +40,7 @@
 
 .imagen-atributos{
     height: 4rem;
-    width: 20%;
+    width: 13%;
     margin: auto;
 }
 
@@ -193,13 +193,14 @@
     color: #fff;
   }
 
-  @media (min-width: 992px) {
+  @media (max-width: 992px) {
     .borde {
         width: 10%;
     }
+
   }
 
-   @media (min-width: 300px){
+   @media (max-width: 768px){
     .borde {
         width: 100%;
     }
@@ -207,4 +208,10 @@
         font-family: 'Julius Sans One', sans-serif;
         font-weight: 400;
     }
+    .imagen-atributos{
+        height: 4rem;
+        width: 20%;
+        margin: auto;
+    }
+    
    }
