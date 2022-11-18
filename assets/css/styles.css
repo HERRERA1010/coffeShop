@@ -8,13 +8,11 @@
 .nombre-brand{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 300;
-   
 }
 
 .nav-link {
     padding: 0.4rem !important;
 }
-
 
 .titulo-producto{
     text-shadow: -3px 1px 7px rgba(0,0,0,0.36);
@@ -38,6 +36,15 @@
     list-style: none;
     color: var(--color-links) !important;
 }
+/*GANODERMA INFORMACION*/
+
+.imagen-atributos{
+    height: 4rem;
+    width: 20%;
+    margin: auto;
+}
+
+/*BOTON DE MAS*/
 
 .cta {
     position: relative;
@@ -153,7 +160,7 @@
 
 .text-sec{
     text-align: left;
-    margin: 10px auto;
+    margin: 10px 10px;
     padding:10%;
     line-height: 30px;
 }
