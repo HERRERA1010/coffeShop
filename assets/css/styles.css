@@ -193,6 +193,10 @@
     color: #fff;
   }
 
+  .iconos-redes{
+    height: 20px;
+  }
+
   @media (max-width: 992px) {
     .borde {
         width: 10%;
@@ -215,7 +219,7 @@
     }
     .imagen-atributos{
         height: 4rem;
-        width: 25%;
+        width: 22%;
         margin: auto;
     }
     .nombre-brand{
