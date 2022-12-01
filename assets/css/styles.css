@@ -191,6 +191,16 @@
   .links-footer{
     font-size: 15px;
     color: #fff;
+    margin: 10px;
+    transition: all 0.1s;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .links-footer:hover{
+    color: #a3815c;
+    font-size: 17px;
+    
   }
 
   .iconos-redes{
@@ -231,10 +241,15 @@
    @media (max-width: 425px){
     .nombre-brand{
         font-weight: 100;
-        font-size:1rem;
+        font-size:1.1rem;
         padding: 0;
     } 
     .wrap{
-        
-        padding: 2rem 1rem;}
+        padding: 3rem 2.5rem;
+    }
+    .imagen-atributos{
+            height: 4rem;
+            width: 27%;
+            margin: auto;
+    }
    }

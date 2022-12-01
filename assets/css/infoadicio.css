@@ -9,15 +9,13 @@
 .titulo-informacion-adicional{
     font-size: 1.5rem;
     text-align: center;
-    margin: 50px auto 50px auto;
+    margin: 100px auto 50px auto;
     font-weight:300;
     color: var(--color-links);
     text-decoration: none;
-     
 }
 
 .card{
-   /** background-color: var(--color-secundario);**/
     color: #474646;
     border: 0;
     min-height: 250px;
