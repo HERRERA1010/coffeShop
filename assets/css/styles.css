@@ -116,12 +116,22 @@
 }
 
 
+
+
+/*PRODUCTOS*/
+
 .img-sec {
     justify-content: center;
     align-items: center;
     display: flex;
     
     
+}
+
+.card-img-top{
+    height: 450px !important;
+    width: 40% !important;
+    margin: auto;
 }
 
 .blob-general-specs{
@@ -137,18 +147,16 @@
 
 .blob2{
     background-image: url(../img/productos/blob\ 2.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 500px;
+ 
 }
 
 .blob3{
-    background-image: url(../img/productos/blob\ 3.svg);
+    background-image: url(../img/productos/blob\ 2.svg);
 }
 
 .blob4{
     background-image: url(../img/productos/blob\ 4.svg);
+ 
 }
 
 .img-sec > img {
@@ -207,6 +215,12 @@
     height: 20px;
   }
 
+  @media (max-width: 1024px) {
+ 
+
+  }
+
+
   @media (max-width: 992px) {
     .borde {
         width: 10%;
@@ -249,7 +263,7 @@
     }
     .imagen-atributos{
             height: 4rem;
-            width: 27%;
+            width: 20%;
             margin: auto;
     }
    }

@@ -7,16 +7,9 @@
 
 .card-img-top{
     height: 230px;
-    width: 40%;
+    width: 25%;
     margin: auto;
-        
-
 }
-.card{
-    border: 0;
-}
-
-
 
 .borde{
     border:  1px solid var(--color-secundario);
@@ -26,8 +19,6 @@
     font-size: 12px;
     text-align: center;
 }
-
-
 
 .img-mc{
     height: 25px;
@@ -54,3 +45,14 @@
 .fuenteMercadoLibre{
     font-family: 'Ubuntu', sans-serif;
 }
+
+@media (max-width: 768px){
+    .borde{
+        width: 70%;
+        margin: auto;
+    }
+    .card-img-top{
+        height: 230px;
+        width: 40%;
+    }
+   }
