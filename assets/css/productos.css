@@ -52,7 +52,7 @@
         margin: auto;
     }
     .card-img-top{
-        height: 230px;
+        height: 250px !important;
         width: 40%;
     }
    }
