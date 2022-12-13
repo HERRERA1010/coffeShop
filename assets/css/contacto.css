@@ -13,12 +13,12 @@
 }
 
 .texto-contacto{
-   font-weight: 300;
+   font-weight: 100;
    border-radius: 5px;
    padding: 20px;
    width: 70%;
    margin: 200px auto;
-   background-color: var(--color-secundario);
+   
    text-shadow: 1px 0.1px ;
 }
 
