@@ -4,6 +4,10 @@
     text-align:center ;
 }
 
+.preg-frecuen{
+    color: var(--color-general);
+}
+
 .pading-faq{
     padding: 1em 10px;
     text-align: center;
