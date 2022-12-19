@@ -28,7 +28,7 @@
 }
 
 .img-wa{
-    height: 25px;
+    height: 26px;
     margin-left: 10px;
 }
 
@@ -36,7 +36,8 @@
     transition: all 0.1s;
     text-decoration: none;
     list-style: none;
-    color: #2b3cd8;
+    color: #000;
+
 }
 
 .links-comprar-merida{
