@@ -12,6 +12,7 @@
 
 .nav-link {
     padding: 0.4rem !important;
+    font-size:larger;
 }
 
 .titulo-producto{
@@ -23,7 +24,7 @@
 
 .banner-image{
     background-image:url(../img/pexels-baryslau-shoot-12165306-min.jpg);
-    background-size:contain;
+    background-size:cover;
 }
 
 .wrap{
@@ -184,7 +185,7 @@
 
   .footer{
     background-color: var(--color-general);
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 70px 0;
     bottom: 0;
     width: 100%;
@@ -242,7 +243,7 @@
     }
     .imagen-atributos{
         height: 4rem;
-        width: 12%;
+        width: 18%;
         margin: auto;
     }
     .nombre-brand{
@@ -262,8 +263,8 @@
         padding: 3rem 2.5rem;
     }
     .imagen-atributos{
-            height: 4rem;
-            
+            height: 5rem;
+            width: 20%;
             margin: auto;
     }
    }
