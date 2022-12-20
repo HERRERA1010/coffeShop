@@ -23,7 +23,7 @@
 
 .banner-image{
     background-image:url(../img/pexels-baryslau-shoot-12165306-min.jpg);
-    background-size: cover;
+    background-size:contain;
 }
 
 .wrap{
@@ -242,7 +242,7 @@
     }
     .imagen-atributos{
         height: 4rem;
-        width: 15%;
+        width: 12%;
         margin: auto;
     }
     .nombre-brand{
@@ -256,6 +256,7 @@
         font-weight: 100;
         font-size:1.1rem;
         padding: 10px;
+        
     } 
     .wrap{
         padding: 3rem 2.5rem;
