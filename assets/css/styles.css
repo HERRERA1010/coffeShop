@@ -5,6 +5,10 @@
     --color-borde: rgb(129, 120, 120);
 }
 
+.texto-general{
+    font-size: 22px;
+}
+
 .nombre-brand{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 300;
@@ -243,7 +247,7 @@
     }
     .imagen-atributos{
         height: 4rem;
-        width: 18%;
+        width: 14%;
         margin: auto;
     }
     .nombre-brand{
